@@ -1,5 +1,16 @@
-number = int (input('Enter a 2 digit number'))
-ahadot = number//10
-asarot = number%10
-print ('The sum of the number is:',asarot+ahadot)
+num1=int(input("Enter first number:"))
+num2=int(input("Enter second number:"))
+num3=int(input("Enter third number:"))
+
+if num1>=num2:
+    if num1>=num3:
+        print ("The largest number is: ",num1)
+    else:
+        print ("The largest number is: ",num3)
+elif num2>=num3:
+    print("The largest number is: ", num2)
+else:
+        print ("The largest number is: ",num3)
+
+
 
